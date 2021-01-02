@@ -5,7 +5,7 @@
         "/**",
         " * Implements hook_ajax_render_alter().",
         " */",
-        "function hook_ajax_render_alter(&$$data) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ajax_render_alter(&$$data) {","  $1","}"
     ],
     "description": "Alter the Ajax command data that is sent to the client.",
     "scope": "php"
@@ -16,7 +16,7 @@
         "/**",
         " * Implements hook_archiver_info_alter().",
         " */",
-        "function hook_archiver_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_archiver_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter archiver information declared by other modules.",
     "scope": "php"
@@ -27,7 +27,7 @@
         "/**",
         " * Implements hook_batch_alter().",
         " */",
-        "function hook_batch_alter(&$$batch) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_batch_alter(&$$batch) {","  $1","}"
     ],
     "description": "Alter batch information before a batch is processed.",
     "scope": "php"
@@ -38,7 +38,7 @@
         "/**",
         " * Implements hook_block_access().",
         " */",
-        "function hook_block_access($$block, $$operation, $$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_block_access($$block, $$operation, $$account) {","  $1","}"
     ],
     "description": "Control access to a block instance.",
     "scope": "php"
@@ -49,7 +49,7 @@
         "/**",
         " * Implements hook_block_build_alter().",
         " */",
-        "function hook_block_build_alter(&$$build, $$block) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_block_build_alter(&$$build, $$block) {","  $1","}"
     ],
     "description": "Alter the result of \\Drupal\\Core\\Block\\BlockBase::build().",
     "scope": "php"
@@ -60,7 +60,7 @@
         "/**",
         " * Implements hook_block_build_BASE_BLOCK_ID_alter().",
         " */",
-        "function hook_block_build_BASE_BLOCK_ID_alter(&$$build, $$block) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_block_build_BASE_BLOCK_ID_alter(&$$build, $$block) {","  $1","}"
     ],
     "description": "Provide a block plugin specific block_build alteration.",
     "scope": "php"
@@ -71,7 +71,7 @@
         "/**",
         " * Implements hook_block_view_alter().",
         " */",
-        "function hook_block_view_alter(&$$build, $$block) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_block_view_alter(&$$build, $$block) {","  $1","}"
     ],
     "description": "Alter the result of \\Drupal\\Core\\Block\\BlockBase::build().",
     "scope": "php"
@@ -82,7 +82,7 @@
         "/**",
         " * Implements hook_block_view_BASE_BLOCK_ID_alter().",
         " */",
-        "function hook_block_view_BASE_BLOCK_ID_alter(&$$build, $$block) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_block_view_BASE_BLOCK_ID_alter(&$$build, $$block) {","  $1","}"
     ],
     "description": "Provide a block plugin specific block_view alteration.",
     "scope": "php"
@@ -93,7 +93,7 @@
         "/**",
         " * Implements hook_cache_flush().",
         " */",
-        "function hook_cache_flush() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_cache_flush() {","  $1","}"
     ],
     "description": "Flush all persistent and static caches.",
     "scope": "php"
@@ -104,7 +104,7 @@
         "/**",
         " * Implements hook_ckeditor_css_alter().",
         " */",
-        "function hook_ckeditor_css_alter(&$$css, $$editor) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ckeditor_css_alter(&$$css, $$editor) {","  $1","}"
     ],
     "description": "Modify the list of CSS files that will be added to a CKEditor instance.",
     "scope": "php"
@@ -115,7 +115,7 @@
         "/**",
         " * Implements hook_ckeditor_plugin_info_alter().",
         " */",
-        "function hook_ckeditor_plugin_info_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ckeditor_plugin_info_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available CKEditor plugins.",
     "scope": "php"
@@ -126,7 +126,7 @@
         "/**",
         " * Implements hook_comment_links_alter().",
         " */",
-        "function hook_comment_links_alter(&$$links, $$entity, &$$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_comment_links_alter(&$$links, $$entity, &$$context) {","  $1","}"
     ],
     "description": "Alter the links of a comment.",
     "scope": "php"
@@ -137,7 +137,7 @@
         "/**",
         " * Implements hook_config_import_steps_alter().",
         " */",
-        "function hook_config_import_steps_alter(&$$sync_steps, $$config_importer) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_config_import_steps_alter(&$$sync_steps, $$config_importer) {","  $1","}"
     ],
     "description": "Alter the configuration synchronization steps.",
     "scope": "php"
@@ -148,7 +148,7 @@
         "/**",
         " * Implements hook_config_schema_info_alter().",
         " */",
-        "function hook_config_schema_info_alter(&$$definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_config_schema_info_alter(&$$definitions) {","  $1","}"
     ],
     "description": "Alter config typed data definitions.",
     "scope": "php"
@@ -159,7 +159,7 @@
         "/**",
         " * Implements hook_config_translation_info().",
         " */",
-        "function hook_config_translation_info(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_config_translation_info(&$$info) {","  $1","}"
     ],
     "description": "Introduce dynamic translation tabs for translation of configuration.",
     "scope": "php"
@@ -170,7 +170,7 @@
         "/**",
         " * Implements hook_config_translation_info_alter().",
         " */",
-        "function hook_config_translation_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_config_translation_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter existing translation tabs for translation of configuration.",
     "scope": "php"
@@ -181,7 +181,7 @@
         "/**",
         " * Implements hook_contextual_links_alter().",
         " */",
-        "function hook_contextual_links_alter(&$$links, $$group, $$route_parameters) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_contextual_links_alter(&$$links, $$group, $$route_parameters) {","  $1","}"
     ],
     "description": "Alter contextual links before they are rendered.",
     "scope": "php"
@@ -192,7 +192,7 @@
         "/**",
         " * Implements hook_contextual_links_plugins_alter().",
         " */",
-        "function hook_contextual_links_plugins_alter(&$$contextual_links) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_contextual_links_plugins_alter(&$$contextual_links) {","  $1","}"
     ],
     "description": "Alter the plugin definition of contextual links.",
     "scope": "php"
@@ -203,7 +203,7 @@
         "/**",
         " * Implements hook_contextual_links_view_alter().",
         " */",
-        "function hook_contextual_links_view_alter(&$$element, $$items) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_contextual_links_view_alter(&$$element, $$items) {","  $1","}"
     ],
     "description": "Alter a contextual links element before it is rendered.",
     "scope": "php"
@@ -214,7 +214,7 @@
         "/**",
         " * Implements hook_countries_alter().",
         " */",
-        "function hook_countries_alter(&$$countries) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_countries_alter(&$$countries) {","  $1","}"
     ],
     "description": "Alter the default country list.",
     "scope": "php"
@@ -225,7 +225,7 @@
         "/**",
         " * Implements hook_cron().",
         " */",
-        "function hook_cron() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_cron() {","  $1","}"
     ],
     "description": "Perform periodic actions.",
     "scope": "php"
@@ -236,7 +236,7 @@
         "/**",
         " * Implements hook_css_alter().",
         " */",
-        "function hook_css_alter(&$$css, $$assets) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_css_alter(&$$css, $$assets) {","  $1","}"
     ],
     "description": "Alter CSS files before they are output on the page.",
     "scope": "php"
@@ -247,7 +247,7 @@
         "/**",
         " * Implements hook_data_type_info_alter().",
         " */",
-        "function hook_data_type_info_alter(&$$data_types) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_data_type_info_alter(&$$data_types) {","  $1","}"
     ],
     "description": "Alter available data types for typed data wrappers.",
     "scope": "php"
@@ -258,7 +258,7 @@
         "/**",
         " * Implements hook_display_variant_plugin_alter().",
         " */",
-        "function hook_display_variant_plugin_alter(&$$definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_display_variant_plugin_alter(&$$definitions) {","  $1","}"
     ],
     "description": "Alter display variant plugin definitions.",
     "scope": "php"
@@ -269,7 +269,7 @@
         "/**",
         " * Implements hook_editor_info_alter().",
         " */",
-        "function hook_editor_info_alter(&$$editors) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_editor_info_alter(&$$editors) {","  $1","}"
     ],
     "description": "Performs alterations on text editor definitions.",
     "scope": "php"
@@ -280,7 +280,7 @@
         "/**",
         " * Implements hook_editor_js_settings_alter().",
         " */",
-        "function hook_editor_js_settings_alter(&$$settings) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_editor_js_settings_alter(&$$settings) {","  $1","}"
     ],
     "description": "Modifies JavaScript settings that are added for text editors.",
     "scope": "php"
@@ -291,7 +291,7 @@
         "/**",
         " * Implements hook_editor_xss_filter_alter().",
         " */",
-        "function hook_editor_xss_filter_alter(&$$editor_xss_filter_class, $$format, $$original_format = NULL) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_editor_xss_filter_alter(&$$editor_xss_filter_class, $$format, $$original_format = NULL) {","  $1","}"
     ],
     "description": "Modifies the text editor XSS filter that will used for the given text format.",
     "scope": "php"
@@ -302,7 +302,7 @@
         "/**",
         " * Implements hook_element_info_alter().",
         " */",
-        "function hook_element_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_element_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter the element type information returned from modules.",
     "scope": "php"
@@ -313,7 +313,7 @@
         "/**",
         " * Implements hook_entity_access().",
         " */",
-        "function hook_entity_access($$entity, $$operation, $$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_access($$entity, $$operation, $$account) {","  $1","}"
     ],
     "description": "Control entity operation access.",
     "scope": "php"
@@ -324,7 +324,7 @@
         "/**",
         " * Implements hook_entity_base_field_info().",
         " */",
-        "function hook_entity_base_field_info($$entity_type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_base_field_info($$entity_type) {","  $1","}"
     ],
     "description": "Provides custom base field definitions for a content entity type.",
     "scope": "php"
@@ -335,7 +335,7 @@
         "/**",
         " * Implements hook_entity_base_field_info_alter().",
         " */",
-        "function hook_entity_base_field_info_alter(&$$fields, $$entity_type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_base_field_info_alter(&$$fields, $$entity_type) {","  $1","}"
     ],
     "description": "Alter base field definitions for a content entity type.",
     "scope": "php"
@@ -346,7 +346,7 @@
         "/**",
         " * Implements hook_entity_build_defaults_alter().",
         " */",
-        "function hook_entity_build_defaults_alter(&$$build, $$entity, $$view_mode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_build_defaults_alter(&$$build, $$entity, $$view_mode) {","  $1","}"
     ],
     "description": "Alter entity renderable values before cache checking in drupal_render().",
     "scope": "php"
@@ -357,7 +357,7 @@
         "/**",
         " * Implements hook_entity_bundle_create().",
         " */",
-        "function hook_entity_bundle_create($$entity_type_id, $$bundle) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_bundle_create($$entity_type_id, $$bundle) {","  $1","}"
     ],
     "description": "Act on entity_bundle_create().",
     "scope": "php"
@@ -368,7 +368,7 @@
         "/**",
         " * Implements hook_entity_bundle_delete().",
         " */",
-        "function hook_entity_bundle_delete($$entity_type_id, $$bundle) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_bundle_delete($$entity_type_id, $$bundle) {","  $1","}"
     ],
     "description": "Act on entity_bundle_delete().",
     "scope": "php"
@@ -379,7 +379,7 @@
         "/**",
         " * Implements hook_entity_bundle_field_info().",
         " */",
-        "function hook_entity_bundle_field_info($$entity_type, $$bundle, $$base_field_definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_bundle_field_info($$entity_type, $$bundle, $$base_field_definitions) {","  $1","}"
     ],
     "description": "Provides field definitions for a specific bundle within an entity type.",
     "scope": "php"
@@ -390,7 +390,7 @@
         "/**",
         " * Implements hook_entity_bundle_field_info_alter().",
         " */",
-        "function hook_entity_bundle_field_info_alter(&$$fields, $$entity_type, $$bundle) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_bundle_field_info_alter(&$$fields, $$entity_type, $$bundle) {","  $1","}"
     ],
     "description": "Alter bundle field definitions.",
     "scope": "php"
@@ -401,7 +401,7 @@
         "/**",
         " * Implements hook_entity_bundle_info().",
         " */",
-        "function hook_entity_bundle_info() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_bundle_info() {","  $1","}"
     ],
     "description": "Describe the bundles for entity types.",
     "scope": "php"
@@ -412,7 +412,7 @@
         "/**",
         " * Implements hook_entity_bundle_info_alter().",
         " */",
-        "function hook_entity_bundle_info_alter(&$$bundles) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_bundle_info_alter(&$$bundles) {","  $1","}"
     ],
     "description": "Alter the bundles for entity types.",
     "scope": "php"
@@ -423,7 +423,7 @@
         "/**",
         " * Implements hook_entity_create().",
         " */",
-        "function hook_entity_create($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_create($$entity) {","  $1","}"
     ],
     "description": "Acts when creating a new entity.",
     "scope": "php"
@@ -434,7 +434,7 @@
         "/**",
         " * Implements hook_entity_create_access().",
         " */",
-        "function hook_entity_create_access($$account, $$context, $$entity_bundle) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_create_access($$account, $$context, $$entity_bundle) {","  $1","}"
     ],
     "description": "Control entity create access.",
     "scope": "php"
@@ -445,7 +445,7 @@
         "/**",
         " * Implements hook_entity_delete().",
         " */",
-        "function hook_entity_delete($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_delete($$entity) {","  $1","}"
     ],
     "description": "Respond to entity deletion.",
     "scope": "php"
@@ -456,7 +456,7 @@
         "/**",
         " * Implements hook_entity_display_build_alter().",
         " */",
-        "function hook_entity_display_build_alter(&$$build, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_display_build_alter(&$$build, $$context) {","  $1","}"
     ],
     "description": "Alter the render array generated by an EntityDisplay for an entity.",
     "scope": "php"
@@ -467,7 +467,7 @@
         "/**",
         " * Implements hook_entity_extra_field_info().",
         " */",
-        "function hook_entity_extra_field_info() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_extra_field_info() {","  $1","}"
     ],
     "description": "Exposes 'pseudo-field' components on content entities.",
     "scope": "php"
@@ -478,7 +478,7 @@
         "/**",
         " * Implements hook_entity_extra_field_info_alter().",
         " */",
-        "function hook_entity_extra_field_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_extra_field_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter 'pseudo-field' components on content entities.",
     "scope": "php"
@@ -489,7 +489,7 @@
         "/**",
         " * Implements hook_entity_field_access().",
         " */",
-        "function hook_entity_field_access($$operation, $$field_definition, $$account, $$items = NULL) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_field_access($$operation, $$field_definition, $$account, $$items = NULL) {","  $1","}"
     ],
     "description": "Control access to fields.",
     "scope": "php"
@@ -500,7 +500,7 @@
         "/**",
         " * Implements hook_entity_field_access_alter().",
         " */",
-        "function hook_entity_field_access_alter(&$$grants, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_field_access_alter(&$$grants, $$context) {","  $1","}"
     ],
     "description": "Alter the default access behavior for a given field.",
     "scope": "php"
@@ -511,7 +511,7 @@
         "/**",
         " * Implements hook_entity_field_storage_info().",
         " */",
-        "function hook_entity_field_storage_info($$entity_type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_field_storage_info($$entity_type) {","  $1","}"
     ],
     "description": "Provides field storage definitions for a content entity type.",
     "scope": "php"
@@ -522,7 +522,7 @@
         "/**",
         " * Implements hook_entity_field_storage_info_alter().",
         " */",
-        "function hook_entity_field_storage_info_alter(&$$fields, $$entity_type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_field_storage_info_alter(&$$fields, $$entity_type) {","  $1","}"
     ],
     "description": "Alter field storage definitions for a content entity type.",
     "scope": "php"
@@ -533,7 +533,7 @@
         "/**",
         " * Implements hook_entity_field_values_init().",
         " */",
-        "function hook_entity_field_values_init($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_field_values_init($$entity) {","  $1","}"
     ],
     "description": "Acts when initializing a fieldable entity object.",
     "scope": "php"
@@ -544,7 +544,7 @@
         "/**",
         " * Implements hook_entity_form_display_alter().",
         " */",
-        "function hook_entity_form_display_alter($$form_display, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_form_display_alter($$form_display, $$context) {","  $1","}"
     ],
     "description": "Alter the settings used for displaying an entity form.",
     "scope": "php"
@@ -555,7 +555,7 @@
         "/**",
         " * Implements hook_entity_insert().",
         " */",
-        "function hook_entity_insert($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_insert($$entity) {","  $1","}"
     ],
     "description": "Respond to creation of a new entity.",
     "scope": "php"
@@ -566,7 +566,7 @@
         "/**",
         " * Implements hook_entity_load().",
         " */",
-        "function hook_entity_load($$entity_type_id) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_load($$entity_type_id) {","  $1","}"
     ],
     "description": "Act on entities when loaded.",
     "scope": "php"
@@ -577,7 +577,7 @@
         "/**",
         " * Implements hook_entity_operation().",
         " */",
-        "function hook_entity_operation($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_operation($$entity) {","  $1","}"
     ],
     "description": "Declares entity operations.",
     "scope": "php"
@@ -588,7 +588,7 @@
         "/**",
         " * Implements hook_entity_operation_alter().",
         " */",
-        "function hook_entity_operation_alter(&$$operations, $$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_operation_alter(&$$operations, $$entity) {","  $1","}"
     ],
     "description": "Alter entity operations.",
     "scope": "php"
@@ -599,7 +599,7 @@
         "/**",
         " * Implements hook_entity_predelete().",
         " */",
-        "function hook_entity_predelete($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_predelete($$entity) {","  $1","}"
     ],
     "description": "Act before entity deletion.",
     "scope": "php"
@@ -610,7 +610,7 @@
         "/**",
         " * Implements hook_entity_prepare_form().",
         " */",
-        "function hook_entity_prepare_form($$entity, $$operation, $$form_state) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_prepare_form($$entity, $$operation, $$form_state) {","  $1","}"
     ],
     "description": "Acts on an entity object about to be shown on an entity form.",
     "scope": "php"
@@ -621,7 +621,7 @@
         "/**",
         " * Implements hook_entity_prepare_view().",
         " */",
-        "function hook_entity_prepare_view($$entity_type_id, $$entities, $$displays, $$view_mode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_prepare_view($$entity_type_id, $$entities, $$displays, $$view_mode) {","  $1","}"
     ],
     "description": "Act on entities as they are being prepared for view.",
     "scope": "php"
@@ -632,7 +632,7 @@
         "/**",
         " * Implements hook_entity_presave().",
         " */",
-        "function hook_entity_presave($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_presave($$entity) {","  $1","}"
     ],
     "description": "Act on an entity before it is created or updated.",
     "scope": "php"
@@ -643,7 +643,7 @@
         "/**",
         " * Implements hook_entity_revision_delete().",
         " */",
-        "function hook_entity_revision_delete($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_revision_delete($$entity) {","  $1","}"
     ],
     "description": "Respond to entity revision deletion.",
     "scope": "php"
@@ -654,7 +654,7 @@
         "/**",
         " * Implements hook_entity_storage_load().",
         " */",
-        "function hook_entity_storage_load($$entity, $$entity_type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_storage_load($$entity, $$entity_type) {","  $1","}"
     ],
     "description": "Respond to entity revision deletion.",
     "scope": "php"
@@ -665,7 +665,7 @@
         "/**",
         " * Implements hook_entity_translation_create().",
         " */",
-        "function hook_entity_translation_create($$translation) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_translation_create($$translation) {","  $1","}"
     ],
     "description": "Acts when creating a new entity translation.",
     "scope": "php"
@@ -676,7 +676,7 @@
         "/**",
         " * Implements hook_entity_translation_delete().",
         " */",
-        "function hook_entity_translation_delete($$translation) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_translation_delete($$translation) {","  $1","}"
     ],
     "description": "Respond to entity translation deletion.",
     "scope": "php"
@@ -687,7 +687,7 @@
         "/**",
         " * Implements hook_entity_translation_insert().",
         " */",
-        "function hook_entity_translation_insert($$translation) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_translation_insert($$translation) {","  $1","}"
     ],
     "description": "Respond to creation of a new entity translation.",
     "scope": "php"
@@ -698,7 +698,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_access().",
         " */",
-        "function hook_ENTITY_TYPE_access($$entity, $$operation, $$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_access($$entity, $$operation, $$account) {","  $1","}"
     ],
     "description": "Control entity operation access for a specific entity type.",
     "scope": "php"
@@ -709,7 +709,7 @@
         "/**",
         " * Implements hook_entity_type_alter().",
         " */",
-        "function hook_entity_type_alter(&$$entity_types) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_type_alter(&$$entity_types) {","  $1","}"
     ],
     "description": "Alter the entity type definitions.",
     "scope": "php"
@@ -720,7 +720,7 @@
         "/**",
         " * Implements hook_entity_type_build().",
         " */",
-        "function hook_entity_type_build(&$$entity_types) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_type_build(&$$entity_types) {","  $1","}"
     ],
     "description": "Add to entity type definitions.",
     "scope": "php"
@@ -731,7 +731,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_build_defaults_alter().",
         " */",
-        "function hook_ENTITY_TYPE_build_defaults_alter(&$$build, $$entity, $$view_mode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_build_defaults_alter(&$$build, $$entity, $$view_mode) {","  $1","}"
     ],
     "description": "Alter entity renderable values before cache checking in drupal_render().",
     "scope": "php"
@@ -742,7 +742,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_create().",
         " */",
-        "function hook_ENTITY_TYPE_create($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_create($$entity) {","  $1","}"
     ],
     "description": "Acts when creating a new entity of a specific type.",
     "scope": "php"
@@ -753,7 +753,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_create_access().",
         " */",
-        "function hook_ENTITY_TYPE_create_access($$account, $$context, $$entity_bundle) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_create_access($$account, $$context, $$entity_bundle) {","  $1","}"
     ],
     "description": "Control entity create access for a specific entity type.",
     "scope": "php"
@@ -764,7 +764,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_delete().",
         " */",
-        "function hook_ENTITY_TYPE_delete($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_delete($$entity) {","  $1","}"
     ],
     "description": "Respond to entity deletion of a particular type.",
     "scope": "php"
@@ -775,7 +775,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_field_values_init().",
         " */",
-        "function hook_ENTITY_TYPE_field_values_init($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_field_values_init($$entity) {","  $1","}"
     ],
     "description": "Acts when initializing a fieldable entity object.",
     "scope": "php"
@@ -786,7 +786,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_insert().",
         " */",
-        "function hook_ENTITY_TYPE_insert($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_insert($$entity) {","  $1","}"
     ],
     "description": "Respond to creation of a new entity of a particular type.",
     "scope": "php"
@@ -797,7 +797,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_load().",
         " */",
-        "function hook_ENTITY_TYPE_load($$entities) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_load($$entities) {","  $1","}"
     ],
     "description": "Act on entities of a specific type when loaded.",
     "scope": "php"
@@ -808,7 +808,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_predelete().",
         " */",
-        "function hook_ENTITY_TYPE_predelete($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_predelete($$entity) {","  $1","}"
     ],
     "description": "Act before entity deletion of a particular entity type.",
     "scope": "php"
@@ -819,7 +819,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_prepare_form().",
         " */",
-        "function hook_ENTITY_TYPE_prepare_form($$entity, $$operation, $$form_state) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_prepare_form($$entity, $$operation, $$form_state) {","  $1","}"
     ],
     "description": "Acts on a particular type of entity object about to be in an entity form.",
     "scope": "php"
@@ -830,7 +830,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_presave().",
         " */",
-        "function hook_ENTITY_TYPE_presave($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_presave($$entity) {","  $1","}"
     ],
     "description": "Act on a specific type of entity before it is created or updated.",
     "scope": "php"
@@ -841,7 +841,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_revision_delete().",
         " */",
-        "function hook_ENTITY_TYPE_revision_delete($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_revision_delete($$entity) {","  $1","}"
     ],
     "description": "Respond to entity revision deletion of a particular type.",
     "scope": "php"
@@ -852,7 +852,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_storage_load().",
         " */",
-        "function hook_ENTITY_TYPE_storage_load($$entities) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_storage_load($$entities) {","  $1","}"
     ],
     "description": "Act on content entities of a given type when loaded from the storage.",
     "scope": "php"
@@ -863,7 +863,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_translation_create().",
         " */",
-        "function hook_ENTITY_TYPE_translation_create($$translation) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_translation_create($$translation) {","  $1","}"
     ],
     "description": "Acts when creating a new entity translation of a specific type.",
     "scope": "php"
@@ -874,7 +874,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_translation_delete().",
         " */",
-        "function hook_ENTITY_TYPE_translation_delete($$translation) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_translation_delete($$translation) {","  $1","}"
     ],
     "description": "Respond to entity translation deletion of a particular type.",
     "scope": "php"
@@ -885,7 +885,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_translation_insert().",
         " */",
-        "function hook_ENTITY_TYPE_translation_insert($$translation) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_translation_insert($$translation) {","  $1","}"
     ],
     "description": "Respond to creation of a new entity translation of a particular type.",
     "scope": "php"
@@ -896,7 +896,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_update().",
         " */",
-        "function hook_ENTITY_TYPE_update($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_update($$entity) {","  $1","}"
     ],
     "description": "Respond to updates to an entity of a particular type.",
     "scope": "php"
@@ -907,7 +907,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_view().",
         " */",
-        "function hook_ENTITY_TYPE_view(&$$build, $$entity, $$display, $$view_mode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_view(&$$build, $$entity, $$display, $$view_mode) {","  $1","}"
     ],
     "description": "Act on entities of a particular type being assembled before rendering.",
     "scope": "php"
@@ -918,7 +918,7 @@
         "/**",
         " * Implements hook_ENTITY_TYPE_view_alter().",
         " */",
-        "function hook_ENTITY_TYPE_view_alter(&$$build, $$entity, $$display) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ENTITY_TYPE_view_alter(&$$build, $$entity, $$display) {","  $1","}"
     ],
     "description": "Alter the results of the entity build array for a particular entity type.",
     "scope": "php"
@@ -929,7 +929,7 @@
         "/**",
         " * Implements hook_entity_update().",
         " */",
-        "function hook_entity_update($$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_update($$entity) {","  $1","}"
     ],
     "description": "Respond to updates to an entity.",
     "scope": "php"
@@ -940,7 +940,7 @@
         "/**",
         " * Implements hook_entity_view().",
         " */",
-        "function hook_entity_view(&$$build, $$entity, $$display, $$view_mode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_view(&$$build, $$entity, $$display, $$view_mode) {","  $1","}"
     ],
     "description": "Act on entities being assembled before rendering.",
     "scope": "php"
@@ -951,7 +951,7 @@
         "/**",
         " * Implements hook_entity_view_alter().",
         " */",
-        "function hook_entity_view_alter(&$$build, $$entity, $$display) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_view_alter(&$$build, $$entity, $$display) {","  $1","}"
     ],
     "description": "Alter the results of the entity build array.",
     "scope": "php"
@@ -962,7 +962,7 @@
         "/**",
         " * Implements hook_entity_view_display_alter().",
         " */",
-        "function hook_entity_view_display_alter($$display, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_view_display_alter($$display, $$context) {","  $1","}"
     ],
     "description": "Alter the settings used for displaying an entity.",
     "scope": "php"
@@ -973,7 +973,7 @@
         "/**",
         " * Implements hook_entity_view_mode_alter().",
         " */",
-        "function hook_entity_view_mode_alter(&$$view_mode, $$entity, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_view_mode_alter(&$$view_mode, $$entity, $$context) {","  $1","}"
     ],
     "description": "Change the view mode of an entity that is being displayed.",
     "scope": "php"
@@ -984,7 +984,7 @@
         "/**",
         " * Implements hook_entity_view_mode_info_alter().",
         " */",
-        "function hook_entity_view_mode_info_alter(&$$view_modes) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_entity_view_mode_info_alter(&$$view_modes) {","  $1","}"
     ],
     "description": "Alter the view modes for entity types.",
     "scope": "php"
@@ -995,7 +995,7 @@
         "/**",
         " * Implements hook_extension().",
         " */",
-        "function hook_extension() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_extension() {","  $1","}"
     ],
     "description": "Declare a template file extension to be used with a theme engine.",
     "scope": "php"
@@ -1006,7 +1006,7 @@
         "/**",
         " * Implements hook_field_formatter_info_alter().",
         " */",
-        "function hook_field_formatter_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_formatter_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on Field API formatter types.",
     "scope": "php"
@@ -1017,7 +1017,7 @@
         "/**",
         " * Implements hook_field_info_max_weight().",
         " */",
-        "function hook_field_info_max_weight($$entity_type, $$bundle, $$context, $$context_mode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_info_max_weight($$entity_type, $$bundle, $$context, $$context_mode) {","  $1","}"
     ],
     "description": "Returns the maximum weight for the entity components handled by the module.",
     "scope": "php"
@@ -1028,7 +1028,7 @@
         "/**",
         " * Implements hook_field_purge_field().",
         " */",
-        "function hook_field_purge_field($$field) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_purge_field($$field) {","  $1","}"
     ],
     "description": "Acts when a field is being purged.",
     "scope": "php"
@@ -1039,7 +1039,7 @@
         "/**",
         " * Implements hook_field_purge_field_storage().",
         " */",
-        "function hook_field_purge_field_storage($$field_storage) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_purge_field_storage($$field_storage) {","  $1","}"
     ],
     "description": "Acts when a field storage definition is being purged.",
     "scope": "php"
@@ -1050,7 +1050,7 @@
         "/**",
         " * Implements hook_field_storage_config_update_forbid().",
         " */",
-        "function hook_field_storage_config_update_forbid($$field_storage, $$prior_field_storage) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_storage_config_update_forbid($$field_storage, $$prior_field_storage) {","  $1","}"
     ],
     "description": "Forbid a field storage update from occurring.",
     "scope": "php"
@@ -1061,7 +1061,7 @@
         "/**",
         " * Implements hook_field_ui_preconfigured_options_alter().",
         " */",
-        "function hook_field_ui_preconfigured_options_alter(&$$options, $$field_type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_ui_preconfigured_options_alter(&$$options, $$field_type) {","  $1","}"
     ],
     "description": "Perform alterations on preconfigured field options.",
     "scope": "php"
@@ -1072,7 +1072,7 @@
         "/**",
         " * Implements hook_field_views_data().",
         " */",
-        "function hook_field_views_data($$field_storage) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_views_data($$field_storage) {","  $1","}"
     ],
     "description": "Override the default Views data for a Field API field.",
     "scope": "php"
@@ -1083,7 +1083,7 @@
         "/**",
         " * Implements hook_field_views_data_alter().",
         " */",
-        "function hook_field_views_data_alter(&$$data, $$field_storage) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_views_data_alter(&$$data, $$field_storage) {","  $1","}"
     ],
     "description": "Alter the Views data for a single Field API field.",
     "scope": "php"
@@ -1094,7 +1094,7 @@
         "/**",
         " * Implements hook_field_views_data_views_data_alter().",
         " */",
-        "function hook_field_views_data_views_data_alter(&$$data, $$field) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_views_data_views_data_alter(&$$data, $$field) {","  $1","}"
     ],
     "description": "Alter the Views data on a per field basis.",
     "scope": "php"
@@ -1105,7 +1105,7 @@
         "/**",
         " * Implements hook_field_widget_form_alter().",
         " */",
-        "function hook_field_widget_form_alter(&$$element, $$form_state, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_widget_form_alter(&$$element, $$form_state, $$context) {","  $1","}"
     ],
     "description": "Alter forms for field widgets provided by other modules.",
     "scope": "php"
@@ -1116,7 +1116,7 @@
         "/**",
         " * Implements hook_field_widget_info_alter().",
         " */",
-        "function hook_field_widget_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_widget_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on Field API widget types.",
     "scope": "php"
@@ -1127,7 +1127,7 @@
         "/**",
         " * Implements hook_field_widget_multivalue_form_alter().",
         " */",
-        "function hook_field_widget_multivalue_form_alter(&$$elements, $$form_state, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_widget_multivalue_form_alter(&$$elements, $$form_state, $$context) {","  $1","}"
     ],
     "description": "Alter forms for multi-value field widgets provided by other modules.",
     "scope": "php"
@@ -1138,7 +1138,7 @@
         "/**",
         " * Implements hook_field_widget_multivalue_WIDGET_TYPE_form_alter().",
         " */",
-        "function hook_field_widget_multivalue_WIDGET_TYPE_form_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_widget_multivalue_WIDGET_TYPE_form_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter multi-value widget forms for a widget provided by another module.",
     "scope": "php"
@@ -1149,7 +1149,7 @@
         "/**",
         " * Implements hook_field_widget_WIDGET_TYPE_form_alter().",
         " */",
-        "function hook_field_widget_WIDGET_TYPE_form_alter(&$$elements, $$form_state, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_field_widget_WIDGET_TYPE_form_alter(&$$elements, $$form_state, $$context) {","  $1","}"
     ],
     "description": "Alter widget forms for a specific widget provided by another module.",
     "scope": "php"
@@ -1160,7 +1160,7 @@
         "/**",
         " * Implements hook_filetransfer_info().",
         " */",
-        "function hook_filetransfer_info() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_filetransfer_info() {","  $1","}"
     ],
     "description": "Register information about FileTransfer classes provided by a module.",
     "scope": "php"
@@ -1171,7 +1171,7 @@
         "/**",
         " * Implements hook_filetransfer_info_alter().",
         " */",
-        "function hook_filetransfer_info_alter(&$$filetransfer_info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_filetransfer_info_alter(&$$filetransfer_info) {","  $1","}"
     ],
     "description": "Alter the FileTransfer class registry.",
     "scope": "php"
@@ -1182,7 +1182,7 @@
         "/**",
         " * Implements hook_file_copy().",
         " */",
-        "function hook_file_copy($$file, $$source) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_file_copy($$file, $$source) {","  $1","}"
     ],
     "description": "Respond to a file that has been copied.",
     "scope": "php"
@@ -1193,7 +1193,7 @@
         "/**",
         " * Implements hook_file_download().",
         " */",
-        "function hook_file_download($$uri) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_file_download($$uri) {","  $1","}"
     ],
     "description": "Control access to private file downloads and specify HTTP headers.",
     "scope": "php"
@@ -1204,7 +1204,7 @@
         "/**",
         " * Implements hook_file_mimetype_mapping_alter().",
         " */",
-        "function hook_file_mimetype_mapping_alter(&$$mapping) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_file_mimetype_mapping_alter(&$$mapping) {","  $1","}"
     ],
     "description": "Alter MIME type mappings used to determine MIME type from a file extension.",
     "scope": "php"
@@ -1215,7 +1215,7 @@
         "/**",
         " * Implements hook_file_move().",
         " */",
-        "function hook_file_move($$file, $$source) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_file_move($$file, $$source) {","  $1","}"
     ],
     "description": "Respond to a file that has been moved.",
     "scope": "php"
@@ -1226,7 +1226,7 @@
         "/**",
         " * Implements hook_file_url_alter().",
         " */",
-        "function hook_file_url_alter(&$$uri) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_file_url_alter(&$$uri) {","  $1","}"
     ],
     "description": "Alter the URL to a file.",
     "scope": "php"
@@ -1237,7 +1237,7 @@
         "/**",
         " * Implements hook_file_validate().",
         " */",
-        "function hook_file_validate($$file) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_file_validate($$file) {","  $1","}"
     ],
     "description": "Check that files meet a given criteria.",
     "scope": "php"
@@ -1248,7 +1248,7 @@
         "/**",
         " * Implements hook_filter_format_disable().",
         " */",
-        "function hook_filter_format_disable($$format) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_filter_format_disable($$format) {","  $1","}"
     ],
     "description": "Perform actions when a text format has been disabled.",
     "scope": "php"
@@ -1259,7 +1259,7 @@
         "/**",
         " * Implements hook_filter_info_alter().",
         " */",
-        "function hook_filter_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_filter_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on filter definitions.",
     "scope": "php"
@@ -1270,7 +1270,7 @@
         "/**",
         " * Implements hook_filter_secure_image_alter().",
         " */",
-        "function hook_filter_secure_image_alter(&$$image) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_filter_secure_image_alter(&$$image) {","  $1","}"
     ],
     "description": "Alters images with an invalid source.",
     "scope": "php"
@@ -1281,7 +1281,7 @@
         "/**",
         " * Implements hook_form_alter().",
         " */",
-        "function hook_form_alter(&$$form, $$form_state, $$form_id) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_form_alter(&$$form, $$form_state, $$form_id) {","  $1","}"
     ],
     "description": "Perform alterations before a form is rendered.",
     "scope": "php"
@@ -1292,7 +1292,7 @@
         "/**",
         " * Implements hook_form_BASE_FORM_ID_alter().",
         " */",
-        "function hook_form_BASE_FORM_ID_alter(&$$form, $$form_state, $$form_id) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_form_BASE_FORM_ID_alter(&$$form, $$form_state, $$form_id) {","  $1","}"
     ],
     "description": "Provide a form-specific alteration for shared ('base') forms.",
     "scope": "php"
@@ -1303,7 +1303,7 @@
         "/**",
         " * Implements hook_form_FORM_ID_alter().",
         " */",
-        "function hook_form_FORM_ID_alter(&$$form, $$form_state, $$form_id) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_form_FORM_ID_alter(&$$form, $$form_state, $$form_id) {","  $1","}"
     ],
     "description": "Provide a form-specific alteration instead of the global hook_form_alter().",
     "scope": "php"
@@ -1314,7 +1314,7 @@
         "/**",
         " * Implements hook_form_system_theme_settings_alter().",
         " */",
-        "function hook_form_system_theme_settings_alter(&$$form, $$form_state) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_form_system_theme_settings_alter(&$$form, $$form_state) {","  $1","}"
     ],
     "description": "Allow themes to alter the theme-specific settings form.",
     "scope": "php"
@@ -1325,7 +1325,7 @@
         "/**",
         " * Implements hook_hal_relation_uri_alter().",
         " */",
-        "function hook_hal_relation_uri_alter(&$$uri, $$context = []) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_hal_relation_uri_alter(&$$uri, $$context = []) {","  $1","}"
     ],
     "description": "Alter the HAL relation URI.",
     "scope": "php"
@@ -1336,7 +1336,7 @@
         "/**",
         " * Implements hook_hal_type_uri_alter().",
         " */",
-        "function hook_hal_type_uri_alter(&$$uri, $$context = []) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_hal_type_uri_alter(&$$uri, $$context = []) {","  $1","}"
     ],
     "description": "Alter the HAL type URI.",
     "scope": "php"
@@ -1347,7 +1347,7 @@
         "/**",
         " * Implements hook_help().",
         " */",
-        "function hook_help($$route_name, $$route_match) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_help($$route_name, $$route_match) {","  $1","}"
     ],
     "description": "Provide online user help.",
     "scope": "php"
@@ -1358,7 +1358,7 @@
         "/**",
         " * Implements hook_help_section_info_alter().",
         " */",
-        "function hook_help_section_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_help_section_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Perform alterations on help page section plugin definitions.",
     "scope": "php"
@@ -1369,7 +1369,7 @@
         "/**",
         " * Implements hook_hook_info().",
         " */",
-        "function hook_hook_info() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_hook_info() {","  $1","}"
     ],
     "description": "Defines one or more hooks that are exposed by a module.",
     "scope": "php"
@@ -1380,7 +1380,7 @@
         "/**",
         " * Implements hook_image_effect_info_alter().",
         " */",
-        "function hook_image_effect_info_alter(&$$effects) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_image_effect_info_alter(&$$effects) {","  $1","}"
     ],
     "description": "Alter the information provided in \\Drupal\\image\\Annotation\\ImageEffect.",
     "scope": "php"
@@ -1391,7 +1391,7 @@
         "/**",
         " * Implements hook_image_style_flush().",
         " */",
-        "function hook_image_style_flush($$style) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_image_style_flush($$style) {","  $1","}"
     ],
     "description": "Respond to image style flushing.",
     "scope": "php"
@@ -1402,7 +1402,7 @@
         "/**",
         " * Implements hook_install().",
         " */",
-        "function hook_install() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_install() {","  $1","}"
     ],
     "description": "Perform setup tasks when the module is installed.",
     "scope": "php"
@@ -1413,7 +1413,7 @@
         "/**",
         " * Implements hook_install_tasks().",
         " */",
-        "function hook_install_tasks(&$$install_state) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_install_tasks(&$$install_state) {","  $1","}"
     ],
     "description": "Return an array of tasks to be performed by an installation profile.",
     "scope": "php"
@@ -1424,7 +1424,7 @@
         "/**",
         " * Implements hook_install_tasks_alter().",
         " */",
-        "function hook_install_tasks_alter(&$$tasks, $$install_state) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_install_tasks_alter(&$$tasks, $$install_state) {","  $1","}"
     ],
     "description": "Alter the full list of installation tasks.",
     "scope": "php"
@@ -1435,7 +1435,7 @@
         "/**",
         " * Implements hook_js_alter().",
         " */",
-        "function hook_js_alter(&$$javascript, $$assets) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_js_alter(&$$javascript, $$assets) {","  $1","}"
     ],
     "description": "Perform necessary alterations to the JavaScript before it is presented on the page.",
     "scope": "php"
@@ -1446,7 +1446,7 @@
         "/**",
         " * Implements hook_js_settings_alter().",
         " */",
-        "function hook_js_settings_alter(&$$settings, $$assets) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_js_settings_alter(&$$settings, $$assets) {","  $1","}"
     ],
     "description": "Perform necessary alterations to the JavaScript settings (drupalSettings).",
     "scope": "php"
@@ -1457,7 +1457,7 @@
         "/**",
         " * Implements hook_js_settings_build().",
         " */",
-        "function hook_js_settings_build(&$$settings, $$assets) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_js_settings_build(&$$settings, $$assets) {","  $1","}"
     ],
     "description": "hook_js_settings_build",
     "scope": "php"
@@ -1468,7 +1468,7 @@
         "/**",
         " * Implements hook_language_fallback_candidates_alter().",
         " */",
-        "function hook_language_fallback_candidates_alter(&$$candidates, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_language_fallback_candidates_alter(&$$candidates, $$context) {","  $1","}"
     ],
     "description": "Allow modules to alter the language fallback candidates.",
     "scope": "php"
@@ -1479,7 +1479,7 @@
         "/**",
         " * Implements hook_language_fallback_candidates_OPERATION_alter().",
         " */",
-        "function hook_language_fallback_candidates_OPERATION_alter(&$$candidates, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_language_fallback_candidates_OPERATION_alter(&$$candidates, $$context) {","  $1","}"
     ],
     "description": "Allow modules to alter the fallback candidates for specific operations.",
     "scope": "php"
@@ -1490,7 +1490,7 @@
         "/**",
         " * Implements hook_language_negotiation_info_alter().",
         " */",
-        "function hook_language_negotiation_info_alter(&$$negotiation_info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_language_negotiation_info_alter(&$$negotiation_info) {","  $1","}"
     ],
     "description": "Perform alterations on language negotiation methods.",
     "scope": "php"
@@ -1501,7 +1501,7 @@
         "/**",
         " * Implements hook_language_switch_links_alter().",
         " */",
-        "function hook_language_switch_links_alter(&$$links, $$type, $$url) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_language_switch_links_alter(&$$links, $$type, $$url) {","  $1","}"
     ],
     "description": "Perform alterations on language switcher links.",
     "scope": "php"
@@ -1512,7 +1512,7 @@
         "/**",
         " * Implements hook_language_types_info().",
         " */",
-        "function hook_language_types_info() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_language_types_info() {","  $1","}"
     ],
     "description": "Define language types.",
     "scope": "php"
@@ -1523,7 +1523,7 @@
         "/**",
         " * Implements hook_language_types_info_alter().",
         " */",
-        "function hook_language_types_info_alter(&$$language_types) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_language_types_info_alter(&$$language_types) {","  $1","}"
     ],
     "description": "Perform alterations on language types.",
     "scope": "php"
@@ -1534,7 +1534,7 @@
         "/**",
         " * Implements hook_layout_alter().",
         " */",
-        "function hook_layout_alter(&$$definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_layout_alter(&$$definitions) {","  $1","}"
     ],
     "description": "Allow modules to alter layout plugin definitions.",
     "scope": "php"
@@ -1545,7 +1545,7 @@
         "/**",
         " * Implements hook_library_info_alter().",
         " */",
-        "function hook_library_info_alter(&$$libraries, $$extension) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_library_info_alter(&$$libraries, $$extension) {","  $1","}"
     ],
     "description": "Alter libraries provided by an extension.",
     "scope": "php"
@@ -1556,7 +1556,7 @@
         "/**",
         " * Implements hook_library_info_build().",
         " */",
-        "function hook_library_info_build() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_library_info_build() {","  $1","}"
     ],
     "description": "Add dynamic library definitions.",
     "scope": "php"
@@ -1567,7 +1567,7 @@
         "/**",
         " * Implements hook_link_alter().",
         " */",
-        "function hook_link_alter(&$$variables) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_link_alter(&$$variables) {","  $1","}"
     ],
     "description": "Alter the parameters for links.",
     "scope": "php"
@@ -1578,7 +1578,7 @@
         "/**",
         " * Implements hook_locale_translation_projects_alter().",
         " */",
-        "function hook_locale_translation_projects_alter(&$$projects) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_locale_translation_projects_alter(&$$projects) {","  $1","}"
     ],
     "description": "Alter the list of projects to be updated by locale's interface translation.",
     "scope": "php"
@@ -1589,7 +1589,7 @@
         "/**",
         " * Implements hook_local_tasks_alter().",
         " */",
-        "function hook_local_tasks_alter(&$$local_tasks) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_local_tasks_alter(&$$local_tasks) {","  $1","}"
     ],
     "description": "Alter local tasks plugins.",
     "scope": "php"
@@ -1600,7 +1600,7 @@
         "/**",
         " * Implements hook_mail().",
         " */",
-        "function hook_mail($$key, &$$message, $$params) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_mail($$key, &$$message, $$params) {","  $1","}"
     ],
     "description": "Prepares a message based on parameters;",
     "scope": "php"
@@ -1611,7 +1611,7 @@
         "/**",
         " * Implements hook_mail_alter().",
         " */",
-        "function hook_mail_alter(&$$message) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_mail_alter(&$$message) {","  $1","}"
     ],
     "description": "Alter an email message created with MailManagerInterface->mail().",
     "scope": "php"
@@ -1622,7 +1622,7 @@
         "/**",
         " * Implements hook_mail_backend_info_alter().",
         " */",
-        "function hook_mail_backend_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_mail_backend_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Alter the list of mail backend plugin definitions.",
     "scope": "php"
@@ -1633,7 +1633,7 @@
         "/**",
         " * Implements hook_media_source_info_alter().",
         " */",
-        "function hook_media_source_info_alter(&$$sources) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_media_source_info_alter(&$$sources) {","  $1","}"
     ],
     "description": "Alters the information provided in \\Drupal\\media\\Annotation\\MediaSource.",
     "scope": "php"
@@ -1644,7 +1644,7 @@
         "/**",
         " * Implements hook_menu_links_discovered_alter().",
         " */",
-        "function hook_menu_links_discovered_alter(&$$links) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_menu_links_discovered_alter(&$$links) {","  $1","}"
     ],
     "description": "Alters all the menu links discovered by the menu link plugin manager.",
     "scope": "php"
@@ -1655,7 +1655,7 @@
         "/**",
         " * Implements hook_menu_local_actions_alter().",
         " */",
-        "function hook_menu_local_actions_alter(&$$local_actions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_menu_local_actions_alter(&$$local_actions) {","  $1","}"
     ],
     "description": "Alter local actions plugins.",
     "scope": "php"
@@ -1666,7 +1666,7 @@
         "/**",
         " * Implements hook_menu_local_tasks_alter().",
         " */",
-        "function hook_menu_local_tasks_alter(&$$data, $$route_name) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_menu_local_tasks_alter(&$$data, $$route_name) {","  $1","}"
     ],
     "description": "Alter local tasks displayed on the page before they are rendered.",
     "scope": "php"
@@ -1677,7 +1677,7 @@
         "/**",
         " * Implements hook_migrate_MIGRATION_ID_prepare_row().",
         " */",
-        "function hook_migrate_MIGRATION_ID_prepare_row($$row, $$source, $$migration) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_migrate_MIGRATION_ID_prepare_row($$row, $$source, $$migration) {","  $1","}"
     ],
     "description": "Allows adding data to a row for a migration with the specified ID.",
     "scope": "php"
@@ -1688,7 +1688,7 @@
         "/**",
         " * Implements hook_migrate_prepare_row().",
         " */",
-        "function hook_migrate_prepare_row($$row, $$source, $$migration) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_migrate_prepare_row($$row, $$source, $$migration) {","  $1","}"
     ],
     "description": "Allows adding data to a row before processing it.",
     "scope": "php"
@@ -1699,7 +1699,7 @@
         "/**",
         " * Implements hook_migration_plugins_alter().",
         " */",
-        "function hook_migration_plugins_alter(&$$migrations) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_migration_plugins_alter(&$$migrations) {","  $1","}"
     ],
     "description": "Allows altering the list of discovered migration plugins.",
     "scope": "php"
@@ -1710,7 +1710,7 @@
         "/**",
         " * Implements hook_modules_installed().",
         " */",
-        "function hook_modules_installed($$modules) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_modules_installed($$modules) {","  $1","}"
     ],
     "description": "Perform necessary actions after modules are installed.",
     "scope": "php"
@@ -1721,7 +1721,7 @@
         "/**",
         " * Implements hook_modules_uninstalled().",
         " */",
-        "function hook_modules_uninstalled($$modules) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_modules_uninstalled($$modules) {","  $1","}"
     ],
     "description": "Perform necessary actions after modules are uninstalled.",
     "scope": "php"
@@ -1732,7 +1732,7 @@
         "/**",
         " * Implements hook_module_implements_alter().",
         " */",
-        "function hook_module_implements_alter(&$$implementations, $$hook) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_module_implements_alter(&$$implementations, $$hook) {","  $1","}"
     ],
     "description": "Alter the registry of modules implementing a hook.",
     "scope": "php"
@@ -1743,7 +1743,7 @@
         "/**",
         " * Implements hook_module_preinstall().",
         " */",
-        "function hook_module_preinstall($$module) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_module_preinstall($$module) {","  $1","}"
     ],
     "description": "Perform necessary actions before a module is installed.",
     "scope": "php"
@@ -1754,7 +1754,7 @@
         "/**",
         " * Implements hook_module_preuninstall().",
         " */",
-        "function hook_module_preuninstall($$module) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_module_preuninstall($$module) {","  $1","}"
     ],
     "description": "Perform necessary actions before a module is uninstalled.",
     "scope": "php"
@@ -1765,7 +1765,7 @@
         "/**",
         " * Implements hook_node_access().",
         " */",
-        "function hook_node_access($$node, $$op, $$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_access($$node, $$op, $$account) {","  $1","}"
     ],
     "description": "Controls access to a node.",
     "scope": "php"
@@ -1776,7 +1776,7 @@
         "/**",
         " * Implements hook_node_access_records().",
         " */",
-        "function hook_node_access_records($$node) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_access_records($$node) {","  $1","}"
     ],
     "description": "Set permissions for a node to be written to the database.",
     "scope": "php"
@@ -1787,7 +1787,7 @@
         "/**",
         " * Implements hook_node_access_records_alter().",
         " */",
-        "function hook_node_access_records_alter(&$$grants, $$node) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_access_records_alter(&$$grants, $$node) {","  $1","}"
     ],
     "description": "Alter permissions for a node before it is written to the database.",
     "scope": "php"
@@ -1798,7 +1798,7 @@
         "/**",
         " * Implements hook_node_grants().",
         " */",
-        "function hook_node_grants($$account, $$op) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_grants($$account, $$op) {","  $1","}"
     ],
     "description": "Inform the node access system what permissions the user has.",
     "scope": "php"
@@ -1809,7 +1809,7 @@
         "/**",
         " * Implements hook_node_grants_alter().",
         " */",
-        "function hook_node_grants_alter(&$$grants, $$account, $$op) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_grants_alter(&$$grants, $$account, $$op) {","  $1","}"
     ],
     "description": "Alter user access rules when trying to view, edit or delete a node.",
     "scope": "php"
@@ -1820,7 +1820,7 @@
         "/**",
         " * Implements hook_node_links_alter().",
         " */",
-        "function hook_node_links_alter(&$$links, $$entity, &$$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_links_alter(&$$links, $$entity, &$$context) {","  $1","}"
     ],
     "description": "Alter the links of a node.",
     "scope": "php"
@@ -1831,7 +1831,7 @@
         "/**",
         " * Implements hook_node_search_result().",
         " */",
-        "function hook_node_search_result($$node) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_search_result($$node) {","  $1","}"
     ],
     "description": "Act on a node being displayed as a search result.",
     "scope": "php"
@@ -1842,7 +1842,7 @@
         "/**",
         " * Implements hook_node_update_index().",
         " */",
-        "function hook_node_update_index($$node) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_node_update_index($$node) {","  $1","}"
     ],
     "description": "Act on a node being indexed for searching.",
     "scope": "php"
@@ -1853,7 +1853,7 @@
         "/**",
         " * Implements hook_options_list_alter().",
         " */",
-        "function hook_options_list_alter(&$$options, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_options_list_alter(&$$options, $$context) {","  $1","}"
     ],
     "description": "Alters the list of options to be displayed for a field.",
     "scope": "php"
@@ -1864,7 +1864,7 @@
         "/**",
         " * Implements hook_page_attachments().",
         " */",
-        "function hook_page_attachments(&$$attachments) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_page_attachments(&$$attachments) {","  $1","}"
     ],
     "description": "Add attachments (typically assets) to a page before it is rendered.",
     "scope": "php"
@@ -1875,7 +1875,7 @@
         "/**",
         " * Implements hook_page_attachments_alter().",
         " */",
-        "function hook_page_attachments_alter(&$$attachments) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_page_attachments_alter(&$$attachments) {","  $1","}"
     ],
     "description": "Alter attachments (typically assets) to a page before it is rendered.",
     "scope": "php"
@@ -1886,7 +1886,7 @@
         "/**",
         " * Implements hook_page_bottom().",
         " */",
-        "function hook_page_bottom(&$$page_bottom) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_page_bottom(&$$page_bottom) {","  $1","}"
     ],
     "description": "Add a renderable array to the bottom of the page.",
     "scope": "php"
@@ -1897,7 +1897,7 @@
         "/**",
         " * Implements hook_page_top().",
         " */",
-        "function hook_page_top(&$$page_top) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_page_top(&$$page_top) {","  $1","}"
     ],
     "description": "Add a renderable array to the top of the page.",
     "scope": "php"
@@ -1908,7 +1908,7 @@
         "/**",
         " * Implements hook_path_delete().",
         " */",
-        "function hook_path_delete($$path) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_path_delete($$path) {","  $1","}"
     ],
     "description": "Respond to a path being deleted.",
     "scope": "php"
@@ -1919,7 +1919,7 @@
         "/**",
         " * Implements hook_path_insert().",
         " */",
-        "function hook_path_insert($$path) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_path_insert($$path) {","  $1","}"
     ],
     "description": "Respond to a path being inserted.",
     "scope": "php"
@@ -1930,7 +1930,7 @@
         "/**",
         " * Implements hook_path_update().",
         " */",
-        "function hook_path_update($$path) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_path_update($$path) {","  $1","}"
     ],
     "description": "Respond to a path being updated.",
     "scope": "php"
@@ -1941,7 +1941,7 @@
         "/**",
         " * Implements hook_post_update_NAME().",
         " */",
-        "function hook_post_update_NAME(&$$sandbox) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_post_update_NAME(&$$sandbox) {","  $1","}"
     ],
     "description": "Executes an update which is intended to update data, like entities.",
     "scope": "php"
@@ -1952,7 +1952,7 @@
         "/**",
         " * Implements hook_preprocess().",
         " */",
-        "function hook_preprocess(&$$variables, $$hook) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_preprocess(&$$variables, $$hook) {","  $1","}"
     ],
     "description": "Preprocess theme variables for templates.",
     "scope": "php"
@@ -1961,9 +1961,9 @@
     "prefix": "hook_preprocess_HOOK",
     "body": [
         "/**",
-        " * Implements hook_preprocess_HOOK().",
+        " * Implements hook_preprocess_hook().",
         " */",
-        "function hook_preprocess_HOOK(&$$variables) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_preprocess_${type}(&$$variables) {","  $1","}"
     ],
     "description": "Preprocess theme variables for a specific theme hook.",
     "scope": "php"
@@ -1974,7 +1974,7 @@
         "/**",
         " * Implements hook_query_alter().",
         " */",
-        "function hook_query_alter($$query) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_query_alter($$query) {","  $1","}"
     ],
     "description": "Perform alterations to a structured query.",
     "scope": "php"
@@ -1985,7 +1985,7 @@
         "/**",
         " * Implements hook_query_TAG_alter().",
         " */",
-        "function hook_query_TAG_alter($$query) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_query_TAG_alter($$query) {","  $1","}"
     ],
     "description": "Perform alterations to a structured query for a given tag.",
     "scope": "php"
@@ -1996,7 +1996,7 @@
         "/**",
         " * Implements hook_queue_info_alter().",
         " */",
-        "function hook_queue_info_alter(&$$queues) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_queue_info_alter(&$$queues) {","  $1","}"
     ],
     "description": "Alter cron queue information before cron runs.",
     "scope": "php"
@@ -2007,7 +2007,7 @@
         "/**",
         " * Implements hook_quickedit_editor_alter().",
         " */",
-        "function hook_quickedit_editor_alter(&$$editors) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_quickedit_editor_alter(&$$editors) {","  $1","}"
     ],
     "description": "Allow modules to alter in-place editor plugin metadata.",
     "scope": "php"
@@ -2018,7 +2018,7 @@
         "/**",
         " * Implements hook_quickedit_render_field().",
         " */",
-        "function hook_quickedit_render_field($$entity, $$field_name, $$view_mode_id, $$langcode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_quickedit_render_field($$entity, $$field_name, $$view_mode_id, $$langcode) {","  $1","}"
     ],
     "description": "Returns a renderable array for the value of a single field in an entity.",
     "scope": "php"
@@ -2029,7 +2029,7 @@
         "/**",
         " * Implements hook_ranking().",
         " */",
-        "function hook_ranking() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_ranking() {","  $1","}"
     ],
     "description": "Provide additional methods of scoring for core search results for nodes.",
     "scope": "php"
@@ -2040,7 +2040,7 @@
         "/**",
         " * Implements hook_rdf_namespaces().",
         " */",
-        "function hook_rdf_namespaces() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_rdf_namespaces() {","  $1","}"
     ],
     "description": "Allow modules to define namespaces for RDF mappings.",
     "scope": "php"
@@ -2051,7 +2051,7 @@
         "/**",
         " * Implements hook_rebuild().",
         " */",
-        "function hook_rebuild() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_rebuild() {","  $1","}"
     ],
     "description": "Rebuild data based upon refreshed caches.",
     "scope": "php"
@@ -2062,7 +2062,7 @@
         "/**",
         " * Implements hook_render_template().",
         " */",
-        "function hook_render_template($$template_file, $$variables) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_render_template($$template_file, $$variables) {","  $1","}"
     ],
     "description": "Render a template using the theme engine.",
     "scope": "php"
@@ -2073,7 +2073,7 @@
         "/**",
         " * Implements hook_requirements().",
         " */",
-        "function hook_requirements($$phase) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_requirements($$phase) {","  $1","}"
     ],
     "description": "Check installation requirements and do status reporting.",
     "scope": "php"
@@ -2084,7 +2084,7 @@
         "/**",
         " * Implements hook_rest_relation_uri_alter().",
         " */",
-        "function hook_rest_relation_uri_alter(&$$uri, $$context = []) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_rest_relation_uri_alter(&$$uri, $$context = []) {","  $1","}"
     ],
     "description": "Deprecated: Alter the REST relation URI.",
     "scope": "php"
@@ -2095,7 +2095,7 @@
         "/**",
         " * Implements hook_rest_resource_alter().",
         " */",
-        "function hook_rest_resource_alter(&$$definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_rest_resource_alter(&$$definitions) {","  $1","}"
     ],
     "description": "Alter the resource plugin definitions.",
     "scope": "php"
@@ -2106,7 +2106,7 @@
         "/**",
         " * Implements hook_rest_type_uri_alter().",
         " */",
-        "function hook_rest_type_uri_alter(&$$uri, $$context = []) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_rest_type_uri_alter(&$$uri, $$context = []) {","  $1","}"
     ],
     "description": "Deprecated: Alter the REST type URI.",
     "scope": "php"
@@ -2117,7 +2117,7 @@
         "/**",
         " * Implements hook_schema().",
         " */",
-        "function hook_schema() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_schema() {","  $1","}"
     ],
     "description": "Define the current version of the database schema.",
     "scope": "php"
@@ -2128,7 +2128,7 @@
         "/**",
         " * Implements hook_search_plugin_alter().",
         " */",
-        "function hook_search_plugin_alter(&$$definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_search_plugin_alter(&$$definitions) {","  $1","}"
     ],
     "description": "Alter search plugin definitions.",
     "scope": "php"
@@ -2139,7 +2139,7 @@
         "/**",
         " * Implements hook_search_preprocess().",
         " */",
-        "function hook_search_preprocess($$text, $$langcode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_search_preprocess($$text, $$langcode) {","  $1","}"
     ],
     "description": "Preprocess text for search.",
     "scope": "php"
@@ -2150,7 +2150,7 @@
         "/**",
         " * Implements hook_shortcut_default_set().",
         " */",
-        "function hook_shortcut_default_set($$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_shortcut_default_set($$account) {","  $1","}"
     ],
     "description": "Return the name of a default shortcut set for the provided user account.",
     "scope": "php"
@@ -2161,7 +2161,7 @@
         "/**",
         " * Implements hook_simpletest_alter().",
         " */",
-        "function hook_simpletest_alter(&$$groups) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_simpletest_alter(&$$groups) {","  $1","}"
     ],
     "description": "Deprecated: Alter the list of tests.",
     "scope": "php"
@@ -2172,7 +2172,7 @@
         "/**",
         " * Implements hook_system_breadcrumb_alter().",
         " */",
-        "function hook_system_breadcrumb_alter(&$$breadcrumb, $$route_match, $$context) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_system_breadcrumb_alter(&$$breadcrumb, $$route_match, $$context) {","  $1","}"
     ],
     "description": "Perform alterations to the breadcrumb built by the BreadcrumbManager.",
     "scope": "php"
@@ -2183,7 +2183,7 @@
         "/**",
         " * Implements hook_system_info_alter().",
         " */",
-        "function hook_system_info_alter(&$$info, $$file, $$type) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_system_info_alter(&$$info, $$file, $$type) {","  $1","}"
     ],
     "description": "Alter the information parsed from module and theme .info.yml files.",
     "scope": "php"
@@ -2194,7 +2194,7 @@
         "/**",
         " * Implements hook_system_themes_page_alter().",
         " */",
-        "function hook_system_themes_page_alter(&$$theme_groups) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_system_themes_page_alter(&$$theme_groups) {","  $1","}"
     ],
     "description": "Alters theme operation links.",
     "scope": "php"
@@ -2205,7 +2205,7 @@
         "/**",
         " * Implements hook_template_preprocess_default_variables_alter().",
         " */",
-        "function hook_template_preprocess_default_variables_alter(&$$variables) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_template_preprocess_default_variables_alter(&$$variables) {","  $1","}"
     ],
     "description": "Alters theme operation links.",
     "scope": "php"
@@ -2216,7 +2216,7 @@
         "/**",
         " * Implements hook_test_finished().",
         " */",
-        "function hook_test_finished($$results) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_test_finished($$results) {","  $1","}"
     ],
     "description": "An individual test has finished.",
     "scope": "php"
@@ -2227,7 +2227,7 @@
         "/**",
         " * Implements hook_test_group_finished().",
         " */",
-        "function hook_test_group_finished() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_test_group_finished() {","  $1","}"
     ],
     "description": "A test group has finished.",
     "scope": "php"
@@ -2238,7 +2238,7 @@
         "/**",
         " * Implements hook_test_group_started().",
         " */",
-        "function hook_test_group_started() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_test_group_started() {","  $1","}"
     ],
     "description": "A test group has started.",
     "scope": "php"
@@ -2249,7 +2249,7 @@
         "/**",
         " * Implements hook_theme().",
         " */",
-        "function hook_theme($$existing, $$type, $$theme, $$path) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_theme($$existing, $$type, $$theme, $$path) {","  $1","}"
     ],
     "description": "Register a module or theme's theme implementations.",
     "scope": "php"
@@ -2260,7 +2260,7 @@
         "/**",
         " * Implements hook_themes_installed().",
         " */",
-        "function hook_themes_installed($$theme_list) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_themes_installed($$theme_list) {","  $1","}"
     ],
     "description": "Respond to themes being installed.",
     "scope": "php"
@@ -2271,7 +2271,7 @@
         "/**",
         " * Implements hook_themes_uninstalled().",
         " */",
-        "function hook_themes_uninstalled($$themes) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_themes_uninstalled($$themes) {","  $1","}"
     ],
     "description": "Respond to themes being uninstalled.",
     "scope": "php"
@@ -2282,7 +2282,7 @@
         "/**",
         " * Implements hook_theme_registry_alter().",
         " */",
-        "function hook_theme_registry_alter(&$$theme_registry) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_theme_registry_alter(&$$theme_registry) {","  $1","}"
     ],
     "description": "Alter the theme registry information returned from hook_theme().",
     "scope": "php"
@@ -2293,7 +2293,7 @@
         "/**",
         " * Implements hook_theme_suggestions_alter().",
         " */",
-        "function hook_theme_suggestions_alter(&$$suggestions, $$variables, $$hook) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_theme_suggestions_alter(&$$suggestions, $$variables, $$hook) {","  $1","}"
     ],
     "description": "Alters named suggestions for all theme hooks.",
     "scope": "php"
@@ -2304,7 +2304,7 @@
         "/**",
         " * Implements hook_theme_suggestions_HOOK().",
         " */",
-        "function hook_theme_suggestions_HOOK($$variables) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_theme_suggestions_HOOK($$variables) {","  $1","}"
     ],
     "description": "Provides alternate named suggestions for a specific theme hook.",
     "scope": "php"
@@ -2315,7 +2315,7 @@
         "/**",
         " * Implements hook_theme_suggestions_HOOK_alter().",
         " */",
-        "function hook_theme_suggestions_HOOK_alter(&$$suggestions, $$variables) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_theme_suggestions_HOOK_alter(&$$suggestions, $$variables) {","  $1","}"
     ],
     "description": "Provides alternate named suggestions for a specific theme hook.",
     "scope": "php"
@@ -2326,7 +2326,7 @@
         "/**",
         " * Implements hook_tokens().",
         " */",
-        "function hook_tokens($$type, $$tokens, $$data, $$options, $$bubbleable_metadata) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_tokens($$type, $$tokens, $$data, $$options, $$bubbleable_metadata) {","  $1","}"
     ],
     "description": "Provide replacement values for placeholder tokens.",
     "scope": "php"
@@ -2337,7 +2337,7 @@
         "/**",
         " * Implements hook_tokens_alter().",
         " */",
-        "function hook_tokens_alter(&$$replacements, $$context, $$bubbleable_metadata) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_tokens_alter(&$$replacements, $$context, $$bubbleable_metadata) {","  $1","}"
     ],
     "description": "Alter replacement values for placeholder tokens.",
     "scope": "php"
@@ -2348,7 +2348,7 @@
         "/**",
         " * Implements hook_toolbar().",
         " */",
-        "function hook_toolbar() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_toolbar() {","  $1","}"
     ],
     "description": "Add items to the toolbar menu.",
     "scope": "php"
@@ -2359,7 +2359,7 @@
         "/**",
         " * Implements hook_toolbar_alter().",
         " */",
-        "function hook_toolbar_alter(&$$items) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_toolbar_alter(&$$items) {","  $1","}"
     ],
     "description": "Alter the toolbar menu after hook_toolbar() is invoked.",
     "scope": "php"
@@ -2370,7 +2370,7 @@
         "/**",
         " * Implements hook_tour_tips_alter().",
         " */",
-        "function hook_tour_tips_alter(&$$tour_tips, $$entity) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_tour_tips_alter(&$$tour_tips, $$entity) {","  $1","}"
     ],
     "description": "Allow modules to alter tour items before render.",
     "scope": "php"
@@ -2381,7 +2381,7 @@
         "/**",
         " * Implements hook_tour_tips_info_alter().",
         " */",
-        "function hook_tour_tips_info_alter(&$$info) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_tour_tips_info_alter(&$$info) {","  $1","}"
     ],
     "description": "Allow modules to alter tip plugin definitions.",
     "scope": "php"
@@ -2392,7 +2392,7 @@
         "/**",
         " * Implements hook_transliteration_overrides_alter().",
         " */",
-        "function hook_transliteration_overrides_alter(&$$overrides, $$langcode) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_transliteration_overrides_alter(&$$overrides, $$langcode) {","  $1","}"
     ],
     "description": "Provide language-specific overrides for transliteration.",
     "scope": "php"
@@ -2403,7 +2403,7 @@
         "/**",
         " * Implements hook_uninstall().",
         " */",
-        "function hook_uninstall() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_uninstall() {","  $1","}"
     ],
     "description": "Remove any information that the module sets.",
     "scope": "php"
@@ -2414,7 +2414,7 @@
         "/**",
         " * Implements hook_updater_info().",
         " */",
-        "function hook_updater_info() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_updater_info() {","  $1","}"
     ],
     "description": "Provide information on Updaters (classes that can update Drupal).",
     "scope": "php"
@@ -2425,7 +2425,7 @@
         "/**",
         " * Implements hook_updater_info_alter().",
         " */",
-        "function hook_updater_info_alter(&$$updaters) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_updater_info_alter(&$$updaters) {","  $1","}"
     ],
     "description": "Alter the Updater information array.",
     "scope": "php"
@@ -2436,7 +2436,7 @@
         "/**",
         " * Implements hook_update_dependencies().",
         " */",
-        "function hook_update_dependencies() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_update_dependencies() {","  $1","}"
     ],
     "description": "Return an array of information about module update dependencies.",
     "scope": "php"
@@ -2447,7 +2447,7 @@
         "/**",
         " * Implements hook_update_last_removed().",
         " */",
-        "function hook_update_last_removed() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_update_last_removed() {","  $1","}"
     ],
     "description": "Return a number which is no longer available as hook_update_N().",
     "scope": "php"
@@ -2458,7 +2458,7 @@
         "/**",
         " * Implements hook_update_N().",
         " */",
-        "function hook_update_N(&$$sandbox) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_update_N(&$$sandbox) {","  $1","}"
     ],
     "description": "Perform a single update between minor versions.",
     "scope": "php"
@@ -2469,7 +2469,7 @@
         "/**",
         " * Implements hook_update_projects_alter().",
         " */",
-        "function hook_update_projects_alter(&$$projects) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_update_projects_alter(&$$projects) {","  $1","}"
     ],
     "description": "Alter the list of projects before fetching data and comparing versions.",
     "scope": "php"
@@ -2480,7 +2480,7 @@
         "/**",
         " * Implements hook_update_status_alter().",
         " */",
-        "function hook_update_status_alter(&$$projects) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_update_status_alter(&$$projects) {","  $1","}"
     ],
     "description": "Alter the information about available updates for projects.",
     "scope": "php"
@@ -2491,7 +2491,7 @@
         "/**",
         " * Implements hook_user_cancel().",
         " */",
-        "function hook_user_cancel($$edit, $$account, $$method) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_user_cancel($$edit, $$account, $$method) {","  $1","}"
     ],
     "description": "Act on user account cancellations.",
     "scope": "php"
@@ -2502,7 +2502,7 @@
         "/**",
         " * Implements hook_user_cancel_methods_alter().",
         " */",
-        "function hook_user_cancel_methods_alter(&$$methods) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_user_cancel_methods_alter(&$$methods) {","  $1","}"
     ],
     "description": "Modify account cancellation methods.",
     "scope": "php"
@@ -2513,7 +2513,7 @@
         "/**",
         " * Implements hook_user_format_name_alter().",
         " */",
-        "function hook_user_format_name_alter(&$$name, $$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_user_format_name_alter(&$$name, $$account) {","  $1","}"
     ],
     "description": "Alter the username that is displayed for a user.",
     "scope": "php"
@@ -2524,7 +2524,7 @@
         "/**",
         " * Implements hook_user_login().",
         " */",
-        "function hook_user_login($$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_user_login($$account) {","  $1","}"
     ],
     "description": "The user just logged in.",
     "scope": "php"
@@ -2535,7 +2535,7 @@
         "/**",
         " * Implements hook_user_logout().",
         " */",
-        "function hook_user_logout($$account) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_user_logout($$account) {","  $1","}"
     ],
     "description": "The user just logged out.",
     "scope": "php"
@@ -2546,7 +2546,7 @@
         "/**",
         " * Implements hook_validation_constraint_alter().",
         " */",
-        "function hook_validation_constraint_alter(&$$definitions) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_validation_constraint_alter(&$$definitions) {","  $1","}"
     ],
     "description": "Alter validation constraint plugin definitions.",
     "scope": "php"
@@ -2557,7 +2557,7 @@
         "/**",
         " * Implements hook_verify_update_archive().",
         " */",
-        "function hook_verify_update_archive($$project, $$archive_file, $$directory) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_verify_update_archive($$project, $$archive_file, $$directory) {","  $1","}"
     ],
     "description": "Verify an archive after it has been downloaded and extracted.",
     "scope": "php"
@@ -2568,7 +2568,7 @@
         "/**",
         " * Implements hook_views_analyze().",
         " */",
-        "function hook_views_analyze($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_analyze($$view) {","  $1","}"
     ],
     "description": "Analyze a view to provide warnings about its configuration.",
     "scope": "php"
@@ -2579,7 +2579,7 @@
         "/**",
         " * Implements hook_views_data().",
         " */",
-        "function hook_views_data() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_data() {","  $1","}"
     ],
     "description": "Describe data tables and fields (or the equivalent) to Views.",
     "scope": "php"
@@ -2590,7 +2590,7 @@
         "/**",
         " * Implements hook_views_data_alter().",
         " */",
-        "function hook_views_data_alter(&$$data) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_data_alter(&$$data) {","  $1","}"
     ],
     "description": "Alter the table and field information from hook_views_data().",
     "scope": "php"
@@ -2601,7 +2601,7 @@
         "/**",
         " * Implements hook_views_form_substitutions().",
         " */",
-        "function hook_views_form_substitutions() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_form_substitutions() {","  $1","}"
     ],
     "description": "Replace special strings when processing a view with form elements.",
     "scope": "php"
@@ -2612,7 +2612,7 @@
         "/**",
         " * Implements hook_views_invalidate_cache().",
         " */",
-        "function hook_views_invalidate_cache() {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_invalidate_cache() {","  $1","}"
     ],
     "description": "Allow modules to respond to the invalidation of the Views cache.",
     "scope": "php"
@@ -2623,7 +2623,7 @@
         "/**",
         " * Implements hook_views_plugins_access_alter().",
         " */",
-        "function hook_views_plugins_access_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_access_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views access plugins.",
     "scope": "php"
@@ -2634,7 +2634,7 @@
         "/**",
         " * Implements hook_views_plugins_area_alter().",
         " */",
-        "function hook_views_plugins_area_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_area_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views area handler plugins.",
     "scope": "php"
@@ -2645,7 +2645,7 @@
         "/**",
         " * Implements hook_views_plugins_argument_alter().",
         " */",
-        "function hook_views_plugins_argument_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_argument_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views argument handler plugins.",
     "scope": "php"
@@ -2656,7 +2656,7 @@
         "/**",
         " * Implements hook_views_plugins_argument_default_alter().",
         " */",
-        "function hook_views_plugins_argument_default_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_argument_default_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views default argument plugins.",
     "scope": "php"
@@ -2667,7 +2667,7 @@
         "/**",
         " * Implements hook_views_plugins_argument_validator_alter().",
         " */",
-        "function hook_views_plugins_argument_validator_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_argument_validator_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views argument validation plugins.",
     "scope": "php"
@@ -2678,7 +2678,7 @@
         "/**",
         " * Implements hook_views_plugins_cache_alter().",
         " */",
-        "function hook_views_plugins_cache_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_cache_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views cache plugins.",
     "scope": "php"
@@ -2689,7 +2689,7 @@
         "/**",
         " * Implements hook_views_plugins_display_alter().",
         " */",
-        "function hook_views_plugins_display_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_display_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views display plugins.",
     "scope": "php"
@@ -2700,7 +2700,7 @@
         "/**",
         " * Implements hook_views_plugins_display_extenders_alter().",
         " */",
-        "function hook_views_plugins_display_extenders_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_display_extenders_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views display extender plugins.",
     "scope": "php"
@@ -2711,7 +2711,7 @@
         "/**",
         " * Implements hook_views_plugins_exposed_form_alter().",
         " */",
-        "function hook_views_plugins_exposed_form_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_exposed_form_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views exposed form plugins.",
     "scope": "php"
@@ -2722,7 +2722,7 @@
         "/**",
         " * Implements hook_views_plugins_field_alter().",
         " */",
-        "function hook_views_plugins_field_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_field_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views field handler plugins.",
     "scope": "php"
@@ -2733,7 +2733,7 @@
         "/**",
         " * Implements hook_views_plugins_join_alter().",
         " */",
-        "function hook_views_plugins_join_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_join_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views join plugins.",
     "scope": "php"
@@ -2744,7 +2744,7 @@
         "/**",
         " * Implements hook_views_plugins_pager_alter().",
         " */",
-        "function hook_views_plugins_pager_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_pager_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views pager plugins.",
     "scope": "php"
@@ -2755,7 +2755,7 @@
         "/**",
         " * Implements hook_views_plugins_query_alter().",
         " */",
-        "function hook_views_plugins_query_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_query_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views query plugins.",
     "scope": "php"
@@ -2766,7 +2766,7 @@
         "/**",
         " * Implements hook_views_plugins_relationship_alter().",
         " */",
-        "function hook_views_plugins_relationship_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_relationship_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views relationship handler plugins.",
     "scope": "php"
@@ -2777,7 +2777,7 @@
         "/**",
         " * Implements hook_views_plugins_row_alter().",
         " */",
-        "function hook_views_plugins_row_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_row_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views row plugins.",
     "scope": "php"
@@ -2788,7 +2788,7 @@
         "/**",
         " * Implements hook_views_plugins_sort_alter().",
         " */",
-        "function hook_views_plugins_sort_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_sort_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views sort handler plugins.",
     "scope": "php"
@@ -2799,7 +2799,7 @@
         "/**",
         " * Implements hook_views_plugins_style_alter().",
         " */",
-        "function hook_views_plugins_style_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_style_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views style plugins.",
     "scope": "php"
@@ -2810,7 +2810,7 @@
         "/**",
         " * Implements hook_views_plugins_wizard_alter().",
         " */",
-        "function hook_views_plugins_wizard_alter(&$$plugins) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_plugins_wizard_alter(&$$plugins) {","  $1","}"
     ],
     "description": "Modify the list of available views wizard plugins.",
     "scope": "php"
@@ -2821,7 +2821,7 @@
         "/**",
         " * Implements hook_views_post_build().",
         " */",
-        "function hook_views_post_build($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_post_build($$view) {","  $1","}"
     ],
     "description": "Act on the view immediately after the query is built.",
     "scope": "php"
@@ -2832,7 +2832,7 @@
         "/**",
         " * Implements hook_views_post_execute().",
         " */",
-        "function hook_views_post_execute($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_post_execute($$view) {","  $1","}"
     ],
     "description": "Act on the view immediately after the query has been executed.",
     "scope": "php"
@@ -2843,7 +2843,7 @@
         "/**",
         " * Implements hook_views_post_render().",
         " */",
-        "function hook_views_post_render($$view, &$$output, $$cache) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_post_render($$view, &$$output, $$cache) {","  $1","}"
     ],
     "description": "Post-process any rendered data.",
     "scope": "php"
@@ -2854,7 +2854,7 @@
         "/**",
         " * Implements hook_views_preview_info_alter().",
         " */",
-        "function hook_views_preview_info_alter(&$$rows, $$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_preview_info_alter(&$$rows, $$view) {","  $1","}"
     ],
     "description": "Alter the view preview information.",
     "scope": "php"
@@ -2865,7 +2865,7 @@
         "/**",
         " * Implements hook_views_pre_build().",
         " */",
-        "function hook_views_pre_build($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_pre_build($$view) {","  $1","}"
     ],
     "description": "Act on the view before the query is built, but after displays are attached.",
     "scope": "php"
@@ -2876,7 +2876,7 @@
         "/**",
         " * Implements hook_views_pre_execute().",
         " */",
-        "function hook_views_pre_execute($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_pre_execute($$view) {","  $1","}"
     ],
     "description": "Act on the view after the query is built and just before it is executed.",
     "scope": "php"
@@ -2887,7 +2887,7 @@
         "/**",
         " * Implements hook_views_pre_render().",
         " */",
-        "function hook_views_pre_render($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_pre_render($$view) {","  $1","}"
     ],
     "description": "Act on the view immediately before rendering it.",
     "scope": "php"
@@ -2898,7 +2898,7 @@
         "/**",
         " * Implements hook_views_pre_view().",
         " */",
-        "function hook_views_pre_view($$view, $$display_id, &$$args) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_pre_view($$view, $$display_id, &$$args) {","  $1","}"
     ],
     "description": "Alter a view at the very beginning of Views processing.",
     "scope": "php"
@@ -2909,7 +2909,7 @@
         "/**",
         " * Implements hook_views_query_alter().",
         " */",
-        "function hook_views_query_alter($$view, $$query) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_query_alter($$view, $$query) {","  $1","}"
     ],
     "description": "Alter the query before it is executed.",
     "scope": "php"
@@ -2920,7 +2920,7 @@
         "/**",
         " * Implements hook_views_query_substitutions().",
         " */",
-        "function hook_views_query_substitutions($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_query_substitutions($$view) {","  $1","}"
     ],
     "description": "Replace special strings in the query before it is executed.",
     "scope": "php"
@@ -2931,7 +2931,7 @@
         "/**",
         " * Implements hook_views_ui_display_top_links_alter().",
         " */",
-        "function hook_views_ui_display_top_links_alter($$view) {","  $1","}"
+        "function ${TM_FILENAME_BASE}_views_ui_display_top_links_alter($$view) {","  $1","}"
     ],
     "description": "Alter the links displayed at the top of the view edit form.",
     "scope": "php"
